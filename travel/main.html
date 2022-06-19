@@ -12,11 +12,12 @@
     <title>Путишествия</title>
 </head>
 <body>
-    <header>
-        <div>
+    <header class = "header"> 
+        <div class="container">
         <nav>
-            <ul >
-                <li><a href="#Logo"><img class="displayed" src="images/logo.jpg" alt="logo" width="40"  height="40"></a></li>
+            <ul class="nav-list">
+                <li><a href="#Logo"><img class="displayed" src="images/logo.gif" alt="logo" width="40"  height="40"></a></li>
+                <li></li>
                 <li><a href="#New">С чего начать</a></li>
                 <li><a href="#Trip">Ваши планы для путишествия</a></li>
                 <li><a href="#Destinations">Направления</a></li>
@@ -26,26 +27,33 @@
         </nav>
         </div>
     </header>
-    <main>
-        <section><h1>Исследуй красоту мира</h1></section>
+    <main class = "main">
+        <div class="container">
+        <section id="New">
+            <h1>Исследуй красоту мира</h1>
         <p>Получать персональные рекомендации по странам, мероприятиям в отелях и т.д.</p>
-
-        <section><h2>3 шага к идеальному путешествию</h2></section>
-        <ul >
+        </section>
+        <section id="Trip">
+            <h2>3 шага к идеальному путешествию</h2>
+        <ul class="nav-list">
             <li>Что ты хочешь сделать</li>
             <li>Удобные для Вас даты</li>
             <li>Наши рекомендации</li>
         </ul>
-        <section><h2>Популярные направления</h2></section>
-        <section><h2>Истории путишествий</h2></section>
+        </section>
+        <section id="Destinations"><h2>Популярные направления</h2></section>
+        <section id="Stories"><h2>Истории путишествий</h2></section>
+        </div>
     </main>
-    <footer>
+    <footer class = "footer">
+        <div class="container">
         <p>Все права защищины</p>
-        <ul >
+        <ul class="nav-list">
             <li>интса</li>
             <li>ютуб</li>
             <li>твитер</li>
         </ul>
+        </div>
     </footer>
 
 </body>
